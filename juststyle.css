@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #474747;
+}
+
+.container {
+  background-color: white;
+  width: 1000px;
+  height: 1080px;
+}
+.title {
+  position: absolute;
+  width: 179px;
+  height: 29px;
+  left: 149px;
+  top: 47px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* off black */
+
+  color: #1a1a1a;
+}
+
+.container .title::before {
+  content: "";
+  position: absolute;
+  width: 798px;
+  height: 0px;
+  left: 0px;
+  top: 30px;
+
+  /* off black */
+
+  border: 1px solid #1a1a1a;
+}
+
+.ragac {
+  position: absolute;
+  width: 29px;
+  height: 24px;
+  left: 920px;
+  top: 49px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* off black */
+
+  color: #1a1a1a;
+}
+
+.charcho {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 48px;
+  top: 45px;
+
+  background: white;
+  font-size: 19px;
+
+  border-radius: 4px;
+  color: #0c0c0c;
+  border: 1px white;
+}
+
+.name {
+  display: flex;
+  width: 50%;
+  height: 21px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16x;
+  line-height: 21px;
+  padding-top: 13%;
+
+  align-items: center;
+  padding-left: 14%;
+  color: #000000;
+}
+
+.form-name input {
+  box-sizing: border-box;
+  margin-left: 14%;
+  margin-top: 2%;
+  display: flex;
+  width: 300px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.min {
+  display: flex;
+  width: 100%;
+  height: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 5px;
+  margin-left: 7%;
+  margin-top: 2%;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+
+  top: 18%;
+
+  color: #7c7979;
+}
+.min :hover {
+  background-color: #474747;
+}
+
+.surname {
+  position: absolute;
+  width: 798px;
+  height: 0px;
+  left: 0px;
+  top: 30px;
+
+  display: flex;
+  padding-left: 27%;
+  padding-top: 5%;
+
+  /* off black */
+}
+
+.form-surname input {
+  box-sizing: border-box;
+  margin-left: 14%;
+  margin-top: 2%;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 13%;
+  top: 12%;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  display: flex;
+}
+
+.min1 {
+  display: flex;
+  width: 100%;
+  height: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 5px;
+  align-items: center;
+  margin-left: 2%;
+  margin-top: 1%;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 25%;
+  top: 18.5%;
+
+  color: #7c7979;
+}
+
+.foto {
+  width: 798px;
+  height: 21px;
+  padding-left: 14%;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.shesaxeb {
+  width: 798px;
+  height: 21px;
+  padding-left: 14%;
+  padding-top: 5%;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.form-shesaxeb input {
+  box-sizing: border-box;
+
+  width: 690px;
+  height: 103px;
+  margin-top: 2%;
+  margin-left: 14%;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.form-shesaxeb ::placeholder {
+  position: absolute;
+  height: 21px;
+  left: 16px;
+  right: 16px;
+  top: 13px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.form-name ::placeholder {
+  position: absolute;
+  height: 21px;
+  left: 13px;
+  right: 16px;
+  top: 8px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-surname ::placeholder {
+  position: absolute;
+  height: 21px;
+  left: 13px;
+  right: 16px;
+  top: 8px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.el {
+  width: 798px;
+  height: 21px;
+  padding-left: 14%;
+  padding-top: 5%;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.form-el input {
+  box-sizing: border-box;
+
+  width: 690px;
+  height: 45px;
+  margin-top: 2%;
+  margin-left: 14%;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.form-el ::placeholder {
+  position: absolute;
+  height: 21px;
+  left: 13px;
+  right: 16px;
+  top: 8px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.min2 {
+  display: flex;
+  width: 100%;
+  height: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 5px;
+  align-items: center;
+  padding-top: 25%;
+
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 7.5%;
+  top: 11.5%;
+
+  color: #7c7979;
+}
+
+.nomeri {
+  width: 798px;
+  height: 21px;
+  padding-left: 14%;
+  padding-top: 1%;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.form-nomeri input {
+  box-sizing: border-box;
+
+  width: 690px;
+  height: 45px;
+  margin-top: 2%;
+  margin-left: 14%;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.form-nomeri ::placeholder {
+  position: absolute;
+  height: 21px;
+  left: 13px;
+  right: 16px;
+  top: 8px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.min3 {
+  display: flex;
+  width: 100%;
+  height: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 5px;
+  align-items: center;
+  padding-top: 35%;
+
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 7.5%;
+  top: 3%;
+
+  color: #7c7979;
+}
+
+.shemdeg {
+  margin-top: 15%;
+  margin-left: 67%;
+  box-sizing: border-box;
+
+  width: 151px;
+  height: 48px;
+
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  background: #6b40e3;
+  font-size: 19px;
+
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px white;
+}
+
+.shemdeg :hover {
+  background-color: black;
+}

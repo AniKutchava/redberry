@@ -1,0 +1,91 @@
+body {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-image: url("shutterstock_2189773743.jpg");
+  background-size: 1920px 1080px;
+}
+.logo {
+  background-image: url(LOGO-02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 236px;
+  height: 38px;
+  left: 70px;
+  top: 25px;
+}
+
+.logo2 {
+  background-image: url(LOGO-40.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 299px;
+  height: 299px;
+  left: 1076px;
+  top: 473px;
+
+  mix-blend-mode: multiply;
+}
+
+.line {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 0px;
+  left: 70px;
+  right: 70px;
+  top: 89px;
+  border: 1px solid #1a1a1a;
+}
+
+.gilaki {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  gap: 20px;
+
+  position: absolute;
+  width: 464px;
+  height: 60px;
+  left: calc(50% - 464px / 2);
+  top: 513px;
+  transition-duration: 0.4s;
+  /* off black */
+
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+
+.chanaweri {
+  width: 212px;
+  height: 24px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background: none;
+  color: #ffffff;
+  border: none;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.gilaki:hover {
+  background-color: #000000;
+  color: white;
+}
